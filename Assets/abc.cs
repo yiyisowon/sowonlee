@@ -21,7 +21,7 @@ public class abc : MonoBehaviour
         {
             scoreNum++;
             this.GetComponent<Text>().text = "점수: " + scoreNum.ToString();
-            this.GetComponent<Text>().text = $"점수: {scoreNum}";
+            //this.GetComponent<Text>().text = $"점수: {scoreNum}";
         }
     }
 }
